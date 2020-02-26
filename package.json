@@ -1,0 +1,35 @@
+{
+  "name": "faf-hackaton-2020",
+  "version": "1.0.0",
+  "description": "medspy app",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "fs-extra": "^8.1.0",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.8.9",
+    "nodemon": "^2.0.2",
+    "puppeteer": "^2.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "xlsx": "^0.15.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/was30/faf-hackaton-2020.git"
+  },
+  "author": "faf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/was30/faf-hackaton-2020/issues"
+  },
+  "homepage": "https://github.com/was30/faf-hackaton-2020#readme"
+}
